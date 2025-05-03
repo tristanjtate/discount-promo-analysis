@@ -1,15 +1,19 @@
 # 🛍️ Discount Promotion Profitability Analysis
 
+![Alt text](highlights/tab_screenshots/summary.png)
+
 This was my first end-to-end project which explored the real profit impact of discount-based promotions using a simulated retail dataset(from InstaCart Data) enriched through SQL, Excel, and Tableau.
 
 I ask found this dataset: https://www.kaggle.com/datasets/psparks/instacart-market-basket-analysis?select=departments.csv
 
-I then asked chatGPT to provide me a question around this data...something real-worldy...
+I took this dataset which consisted of multiple csv's and JOINed tables via SQL to create a dataset of 100,000 rows.
+
+I asked chatGPT to provide me a question around this data...something real-worldy...
 
 I got something like the one below...
 
 ## 🎯 Business Question
-Do discounted promotions truly drive profitability across departments and products—or are they hurting margins?
+Do discounted promotions truly drive profitability across departments and products...or are they hurting margins?
 
 ## 💡 Summary
 Using simulated promotional data, we analyzed retail performance under four promotion types. Discount promotions showed the lowest profit per item and lowest margin, despite high volume.
@@ -24,6 +28,9 @@ Using simulated promotional data, we analyzed retail performance under four prom
 - Excel
 - Tableau
 - Git
+
+## Queries used
+- This is in highlights/sql_screenshots
 
 ## 🧪 Approach
 1. **SQL**: I first Built a custom enriched table from raw Instacart-style order data using MySQL. Joined multiple tables to prepare a clean base dataset.
@@ -84,7 +91,6 @@ Using simulated promotional data, we analyzed retail performance under four prom
 
 ---
 
-## 📁 Folder Structure 
 
 
 
